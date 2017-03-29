@@ -1,0 +1,335 @@
+body {
+    padding-top: 40px;
+	font-family: 'Nunito', sans-serif;
+}
+
+.wrapper {
+    max-width: 100rem;
+}
+
+.row-flex {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.up-case {
+    text-transform: uppercase;
+}
+
+.font-bold {
+    font-weight: bold;
+}
+
+.point {
+    margin-bottom: 10px;
+}
+
+.point:last-of-type {
+    margin-bottom: 40px;
+}
+
+.text-head {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #000;
+    font-size: 18px;
+}
+
+.list-intend {
+    margin-top: 15px;
+}
+
+.intend {
+    padding-left: 20px;
+}
+
+#msg {
+    font-size: 18px;
+}
+
+header a, header a:hover, header a:visited, header a:focus {
+    text-decoration: none;
+    color: black;
+}
+
+.link-style, .link-style:hover {
+    text-decoration: none;
+    color: black;
+}
+
+header {
+	background: #fff;
+    height: 40px;
+}
+
+header > div {
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 8px 0;
+}
+
+section {
+    padding-top: 3%;
+}
+
+.blue-section {
+    color: #fff;
+    background: #80d8dc;
+}
+
+.blue-section h1{
+    font-size: 60px;
+    text-transform: uppercase;
+    line-height: 60px;
+    font-weight: bold;
+}
+
+.blue-section h1 + div {
+    max-width: 60rem;
+    margin: auto;
+    font-size: 28px;
+    line-height: 30px;
+}
+
+.blue-section button, .blue-section button:visited, .blue-section button:focus {
+    position: relative;
+    background: #1f8be3;
+    color: #fff;
+    font-size: 22px;
+    margin-bottom: -20%;
+    z-index: 99;
+    transition: 0.5s;
+    border: none;
+}
+
+.blue-section button:hover {
+    background: #1c59a2;
+    color: #fff;
+    transition: 0.5s;
+}
+
+
+.blue-section img {
+    z-index: 1;
+}
+
+.white-section {
+    color: #292929;
+}
+
+.white-section .row {
+    margin: 40px -15px;
+}
+
+.white-section .text1, .grey-section h1  {
+    font-size: 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+    line-height: 44px;
+}
+
+.white-section .text2 {
+    font-size: 20px;
+}
+
+.white-section .text3 {
+    text-transform: uppercase;
+}
+
+.white-section .text4 {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.grey-section {
+	background: #e4e3e3;
+    font-size: 18px;
+}
+
+.grey-section .text2 {
+    max-width: 450px;
+    margin: 0 auto;
+}
+
+.grey-section .content, footer .content {
+    padding-bottom: 30px;
+}
+
+.grey-section p:first-of-type {
+    margin-top: 40px;
+}
+
+.grey-section p {
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+
+.grey-section .point {
+    font-size: 16px;
+}
+
+
+
+footer {
+	background: #83d9dc;
+}
+
+footer .content {
+    margin-top: 60px;
+    padding-top: 20px;
+    padding-bottom: 70px;
+}
+
+footer .text1 {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+footer ul {
+    list-style-type: none;
+    padding-left:0;
+}
+
+footer ul li {
+    text-align: center;
+    display: inline-block;
+    background: rgba(0,0,0,0.2);
+    color: #fff;
+    line-height: 30px;
+    margin: 0 4px;
+    width: 30px!important;
+    height: 30px!important;
+    border-radius: 3px;
+}
+
+footer ul li:hover {
+    background: #2a2a2a;
+}
+
+footer ul li:hover a {
+    color: #fff;
+}
+
+footer .form-control {
+    background: #83d9dc;
+    border: 2px solid #000;
+    border-radius: 0;
+}
+
+label {
+    font-size: 16px;
+    font-weight: normal;
+}
+
+footer button {
+    background: rgba(0,0,0,0.2);
+    font-weight: bold;
+	text-align: center;
+	margin: 0;
+	border: none !important;
+	padding: 10px;
+}
+
+footer button:hover {
+    background: #2a2a2a;
+    color: #fff;
+}
+
+footer  a, a:hover, a:visited, a:focus {
+    text-decoration: underline;
+    color: black;
+}
+
+.line-link {
+    text-decoration: underline;
+    color: black;
+}
+
+.info {
+    margin-top: 30px;
+}
+
+.test {
+    border: 1px solid red;
+}
+
+@media only screen and (max-width: 991px) {
+    .white-section .text1 {
+        text-align: center;
+    }
+
+    .white-section .text2 {
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .white-section .row {
+        margin-bottom: 20px;
+    }
+
+    footer > div {
+        max-width: 70rem;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .blue-section h1 {
+        font-size: 30px;
+        line-height: 32px;
+    }
+
+    .blue-section h1 + div {
+        font-size: 20px;
+        line-height: 22px;
+    }
+
+    .blue-section button {
+        font-size: 18px;
+    }
+
+    .white-section {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .white-section .text1 {
+        font-size: 30px;
+        line-height: 32px;
+    }
+
+    .white-section .text2 {
+        font-size: 20px;
+
+    }
+
+    .white-section .text4 {
+        font-size: 14px;
+        line-height: 16px;
+
+    }
+
+    .grey-section h1 {
+        font-size: 30px;
+        line-height: 32px;
+    }
+    footer .wrapper {
+        max-width: 50rem;
+    }
+    footer .content2 {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 476px) {
+    .blue-section button {
+        font-size: 14px;
+        margin-bottom: 0;
+        margin-top: 10px;
+    }
+
+    .white-section .row {
+        margin-bottom: 10px;
+    }
+}
